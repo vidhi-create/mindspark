@@ -1,0 +1,609 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-image: url("./images/new.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  float: left;
+  position: fixed;
+}
+.navbar img{
+  width: 152px;
+  height: 50px;
+}
+.navbar ul{
+  padding-top: 5px;
+}
+.navbar ul li{
+  list-style:none ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 10px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+.navbar button{
+  position: relative;
+  margin-top: 15px;
+  font-size: 23px;
+  height: 50px;
+  width: 152px;
+  background-color: rgb(35, 17, 100);
+}
+.navbar button a{
+  text-decoration: none;
+  color: white;
+}
+.top{
+  float: right;
+  width: 78%;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-right: 5px;
+}
+.top{
+  width: 83%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.top img{
+  width: 60%;
+  height: 98px;
+  margin-top: 20px;
+}
+.top h1{
+  font-size: 70px;
+}
+.top h2{
+  font-size: 50px;
+}
+.about{
+  float: right;
+  width: 83%;
+  box-sizing: border-box;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+}
+.head{
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  width: 50%;
+  float: left;
+}
+.head h2{
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+}
+.heading{
+  float: right;
+  width: 50%;
+  background-color: floralwhite;
+  text-align: center;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.heading img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 150px;
+}
+.team{
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+.team-img{
+  float: left;
+  width: 15%;
+}
+.team-img img{
+  width: 100px;
+  float: left;
+  height: 100px;
+  border-radius: 50px;
+}
+.team-dis{
+  width: 85%;
+  float: right;
+}
+.team-dis h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.team-dis p{
+  font-size: 23px;
+}
+.prize{
+  margin-top: 20px;
+  float: right;
+  padding: 20px;
+}
+.prize-img{
+  float: right;
+  width: 15%;
+}
+.prize-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.prize-dis{
+  float: left;
+  width: 85%;
+}
+.prize-dis h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.prize-dis p{
+  font-size: 23px;
+}
+.winner{
+  margin-top: 20px;
+  float: left;
+  padding: 20px;
+}
+.winner-img{
+  float: left;
+  width: 15%;
+}
+.winner-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.winner-dis{
+  float: right;
+  width: 82%;
+}
+.winner-dis h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.winner-dis p{
+  font-size: 23px;
+}
+.butt button{
+  background-color: rgb(35, 17, 100);
+  height: 50px;
+  width: 152px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+.butt button a{
+  text-decoration: none;
+  color: white;
+}
+.struct{
+  float: right;
+  width: 83%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+.group{
+  float: left;
+  width: 40%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.group h2{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 75.5px;
+}
+.group-img{
+  width: 60%;
+  float: right;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+.group-img img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 150px;
+}
+.title h2{
+  color: white;
+  font-size: 30px;
+}
+.title{
+  margin-bottom: 30px;
+}
+.ul ul li{
+  font-size: 23px;
+  color: white;
+  line-height: 30px;
+}
+.ul{
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+.ul ul{
+  list-style: none;
+}
+.ul ul li::before{
+  content: "\2022";
+  color: rgb(252, 4, 210);
+  font-size: 23px;
+}
+.work-img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.past{
+  width: 15%;
+}
+.can{
+  float: right;
+  width:85%;
+}
+.can h2{
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+}
+.work{
+  height: 100px;
+  margin-top: 35px;
+}
+.see{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.see dt{
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.see dl dd{
+  color: white;
+  font-size: 23px;
+}
+.event{
+  box-sizing: border-box;
+  color: white;
+  float: right;
+  width: 83%;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding: 20px;
+}
+.eve{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.we{
+  padding: 20px;
+  float: left;
+}
+.we1{
+  float: left;
+  width: 15%;
+}
+.we2{
+  float: right;
+  width: 85%;
+}
+.we1 img{
+  width: 100px;
+  height: 200px;
+}
+.we2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.we2 p{
+  padding-bottom: 8px;
+  font-size: 23px;
+}
+.by{
+  margin-top: 20px;
+  padding: 20px;
+  float: left;
+  padding: 20px;
+}
+.by1{
+  float: right;
+  width: 15%;
+}
+.by1 img{
+  width: 100px;
+  height: 200px;
+}
+.by2{
+  float: left;
+  width: 85%;
+}
+.by2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.by2 p{
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+.add{
+  padding: 20px;
+  float: left;
+  margin-top: 20px;
+}
+.add1{
+  float: left;
+  width: 15%;
+}
+.add2{
+  float: right;
+  width: 85%;
+}
+.add1 img{
+  width: 100px;
+  height: 200px;
+}
+.add2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.add2 p{
+  font-size: 23px;
+}
+.eval{
+  float: right;
+  width: 83%;
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.one{
+  float: left;
+}
+.are{
+  width: 15%;
+  float: left;
+}
+.are img{
+  margin-top: 20px;
+  width: 100px;
+  height: 150px;
+}
+.hand{
+  padding-right: 5px;
+  color: white;
+  float: right;
+  width: 85%;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.hand h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.hand ol li{
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+.three{
+  float: left;
+  color: white;
+  margin-top: 20px;
+}
+.th-img{
+  float: left;
+  width: 15%;
+}
+.th-img img{
+  width: 100px;
+  height: 150px;
+}
+.two{
+  padding-left: 25px;
+  padding-right: 5px;
+  float: right;
+  width: 85%;
+  box-sizing: border-box;
+}
+.two h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.two ol li{
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+.rule{
+  box-sizing: border-box;
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
+  float: right;
+  width: 83%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.rule h2{
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.rule1{
+  box-sizing: border-box;
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+  padding-bottom: 0;
+}
+.rule2{
+  float: left;
+  width: 50%;
+  padding-left: 10px;  box-sizing: border-box;
+  padding-bottom: 0;
+}
+.r1{
+  border: 1px solid deeppink;
+  text-align: center;
+  padding:10px;
+  margin-bottom: 20px;
+  height: 170px;
+}
+.r1 h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.r1 p{
+  font-size: 23px;
+}
+.faq{
+  margin-top: 20px;
+  border: 1px solid white;
+  float: right;
+  width: 83%;
+  padding: 20px;
+  padding-bottom: 0;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+.faq h2{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.f1{
+  border: 1px solid deeppink;
+  float: left;
+  width: 80%;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.f2{
+  border: 1px solid deeppink;
+  float: right;
+  width: 80%;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.f1 p{
+  font-size: 23px;
+}
+.f1 h2{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.f2 p{
+  font-size: 23px;
+}
+.f2 h2{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.con{
+  padding: 20px 20px;
+  float: right;
+  width: 83%;
+  box-sizing: border-box;
+  border: 1px solid white;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.con h2{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.con2{
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.con1{
+  text-align: center;
+  width: 31%;
+  box-sizing: border-box;
+}
+.con1 img{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+.con1 ul li{
+  font-size: 23px;
+  list-style: none;
+  padding-bottom: 8px;
+}
+.con1 p{
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+#p1 #p2 #p3{
+  font-weight: bold;
+}
+#c1{
+  float: left;
+}
+#c2{
+  display: inline-block;
+  margin: 0 auto;
+}
+#c3{
+  float: right;
+}
+.navbar ul li a:hover{
+  font-weight: bold;
+  background-color: white;
+  color: rgb(35, 17, 100);
+}
+button a:hover{
+  font-weight: bold;
+  color: beige;
+}
+.r1:hover{
+  background-color: rgb(6, 6, 94);
+}
+.f1:hover{
+  background-color: rgb(6, 6, 94);
+}
+.f2:hover{
+  background-color: rgb(6, 6, 94);
+}
+.con1:hover{
+    background-color: rgb(6, 6, 94);
+    padding-top: 10px;
+}
